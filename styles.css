@@ -11,4 +11,8 @@
 
 html {
     font-family: 'Roboto', 'Arial', 'Helvetica', 'Calibri', 'Droid Sans', 'Liberation Sans' sans-serif;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
   }
