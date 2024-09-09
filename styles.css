@@ -147,3 +147,28 @@ html {
     text-align: center;
     width: 150px;
   }
+
+
+  .testimonial-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--quote-bg-color);
+    color: var(--dark-bg-color);
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+  }
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 320px;
+  }
+
+  .testimonial-author {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+    margin-right: 50px;
+  }
