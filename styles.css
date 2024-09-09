@@ -1,0 +1,14 @@
+:root {
+  --dark-bg-color:                                   #1F2937;
+  --hero-main-text-color:                            #F9FAF8;
+  --hero-subtext-color:                              #E5E7EB;
+  --call-to-action-bg-color:                         #3882F6;
+  --header-logo-text-color:        var(--hero-main-text-color);
+  --information-header-text-color:        var(--dark-bg-color);
+  --quote-bg-color:                  var(--hero-subtext-color);
+  --quote-text-color:                     var(--dark-bg-color);
+}
+
+html {
+    font-family: 'Roboto', 'Arial', 'Helvetica', 'Calibri', 'Droid Sans', 'Liberation Sans' sans-serif;
+  }
