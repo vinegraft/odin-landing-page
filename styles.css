@@ -152,6 +152,7 @@ html {
   .testimonial-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: var(--quote-bg-color);
     color: var(--dark-bg-color);
     font-size: 36px;
@@ -161,8 +162,6 @@ html {
 .testimonial {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 700px;
     margin: 100px 0px;
   }
