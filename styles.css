@@ -25,11 +25,14 @@ html {
   }
 
   header {
+    align-self: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     flex: 1;
     margin: 10px 180px;
+    width: 1000px;
   }
   .header-logo {
     color: var(--header-logo-text-color);
@@ -54,7 +57,7 @@ html {
 
   .hero-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 100px 180px;
     flex-wrap: wrap;
@@ -64,7 +67,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 400px;
+    width: 500px;
   }
 
   .hero-heading {
